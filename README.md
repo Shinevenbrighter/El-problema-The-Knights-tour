@@ -1,1 +1,6 @@
 # implementaci-n_backtracking_El_problema_The_Knight-s_tour
+El problema del recorrido del caballo (Knight’s Tour) es un clásico de la teoría de grafos y de la programación recursiva. Consiste en determinar una secuencia de movimientos de un caballo de ajedrez sobre un tablero de tamaño 𝑛 × 𝑛 , de forma que visite cada casilla exactamente una vez. (GeeksforGeeks, 2011)
+
+En este proyecto se implementó una versión optimizada con backtracking, donde el caballo recorre un tablero lógico de 5×5 representado dentro de una matriz 7×7 (Se pone más para el padding y revisar los límites). El algoritmo explora todas las rutas posibles de manera recursiva, retrocediendo cada vez que encuentra un camino sin salida, hasta encontrar un recorrido completo que cumpla la condición de visitar todas las celdas una sola vez.
+
+Se utilizó una matriz de adyacencia para modelar los movimientos válidos del caballo como un grafo, junto con una semilla aleatoria (seed) que permite variar el orden de los movimientos y, por tanto, obtener diferentes soluciones. Después de correr el código, el resultado se visualiza mediante un GIF animado descargable que muestra paso a paso el recorrido realizado por el caballo.
